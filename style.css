@@ -57,7 +57,7 @@
 
 /*Multiple image containers*/
 
-.mid__container__1{
+.mid__container{
   display: flex;
   align-items: center;
   justify-content: space-evenly;
@@ -66,20 +66,13 @@
     
 }
 
+
 .mid__container__2{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 15px;
-    margin: 15px 0; 
-  }
-
-.mid__container__3{
     margin: 15px 0; 
   }
 
 
-/*Single Image Containers*/
+/*Images*/
 
 .image__container{
     width: 100%;
@@ -89,6 +82,9 @@
 .image{
     width: 100%;
 }
+
+
+/*Single Image Containers*/
 
 .carousel__container{
     width: 100%;
@@ -149,9 +145,6 @@
   }
 
   
-
-
-
 /*Box Shadows*/
 
 .image__container,img{
@@ -169,8 +162,7 @@
 }
 
 
-
-/*Media Queries*/
+/*Media Queries medium screen*/
 
 @media (min-width:768px) {
 
@@ -185,13 +177,13 @@
 
     }
 
-    .mid__container__1{
+    .mid__container{
         margin: 20px 0;
            
           
       }
       
-      .mid__container__2{
+      .mid__container__1{
         margin: 20px 0;
         }
 
@@ -211,6 +203,9 @@
           }
     
 }
+
+
+/*Media Queries large screen*/
 
 
 @media (min-width:1028px) {
@@ -236,7 +231,7 @@
 
     }
 
-    .mid__container__1{
+    .mid__container{
         margin: 20px 0;   
           
       }
@@ -259,8 +254,6 @@
             text-align: center;
             border-radius: 6px;
           }
-
-    
     
 }
 
